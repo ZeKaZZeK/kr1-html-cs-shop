@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Заявка — KeyForge</title>
+<meta name="description" content="Оформление заявки на механическую клавиатуру KeyForge">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body id="top">
+<header class="site-header">
+<div class="site-header__inner">
+<a class="site-header__logo" href="index.html">KeyForge</a>
+<nav class="site-nav" aria-label="Основное меню"><ul class="site-nav__list"><li class="site-nav__item"><a class="site-nav__link" href="index.html">Главная</a></li><li class="site-nav__item"><a class="site-nav__link" href="catalog.html">Каталог</a></li><li class="site-nav__item"><a class="site-nav__link" href="product.html">Товар</a></li><li class="site-nav__item"><a class="site-nav__link site-nav__link--active" href="order.html">Заявка</a></li><li class="site-nav__item"><a class="site-nav__link" href="contacts.html">Контакты</a></li></ul></nav>
+</div>
+</header>
+<main class="page">
+<section class="section">
+<h1 class="section__title">Оформление заявки</h1>
+<form class="order-form" action="#" method="post">
+<div class="order-form__field"><label class="order-form__label" for="name">Имя *</label><input class="order-form__input" id="name" name="name" type="text" required autocomplete="name"></div>
+<div class="order-form__field"><label class="order-form__label" for="email">E-mail *</label><input class="order-form__input" id="email" name="email" type="email" required autocomplete="email"></div>
+<div class="order-form__field"><label class="order-form__label" for="phone">Телефон *</label><input class="order-form__input" id="phone" name="phone" type="tel" required autocomplete="tel"></div>
+<div class="order-form__field"><label class="order-form__label" for="product">Товар</label>
+<select class="order-form__input" id="product" name="product"><option>K1 Classic</option><option selected>K2 TKL</option><option>K3 Mini</option></select></div>
+<div class="order-form__field"><label class="order-form__label" for="comment">Комментарий</label><textarea class="order-form__input" id="comment" name="comment" rows="4"></textarea></div>
+<label class="order-form__consent"><input type="checkbox" name="consent" required> Согласен на обработку персональных данных *</label>
+<div class="order-form__actions"><button class="button" type="submit">Отправить заявку</button></div>
+</form>
+</section>
+</main>
+<footer class="site-footer">
+<p class="site-footer__text">© 2026 KeyForge — механические клавиатуры</p>
+<ul class="site-footer__links">
+<li><a href="index.html#advantages">Преимущества</a></li>
+<li><a href="index.html#popular">Популярные товары</a></li>
+<li><a href="index.html#contacts">Контакты</a></li>
+</ul>
+</footer>
+<a class="to-top" href="#top">Наверх</a>
+<script src="js/main.js"></script>
+</body>
+</html>
