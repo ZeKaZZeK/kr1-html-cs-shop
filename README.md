@@ -7,8 +7,7 @@
 **Студент:** ФИО, группа _(заполнить)_
 
 ## Ссылка на опубликованный проект
-GitHub Pages: https://USERNAME.github.io/kr1-html-css-shop/ _(заменить USERNAME)_
-
+GitHub Pages: https://zekazzek.github.io/kr1-html-cs-shop/
 ## Структура проекта
 ```
 kr1-html-css-shop/
